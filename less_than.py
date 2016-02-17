@@ -9,3 +9,13 @@ for x in a:
 
 xxy = [num for num in a if num < 5]
 print(xxy)
+
+#The following is for Extra 3
+
+user_num = int(input("What number should be the high number?\n"))
+user_list = []
+for i in a:
+    if i < user_num:
+        user_list.append(i)
+
+print(user_list)
