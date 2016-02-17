@@ -5,4 +5,7 @@ for x in a:
     if x < 5:
         less_than.append(x)
 
-print(less_than)
+#print(less_than)
+
+xxy = [num for num in a if num < 5]
+print(xxy)
